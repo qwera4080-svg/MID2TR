@@ -2,6 +2,7 @@ var sp_notes=[[0,0,0,0]]
 var min_time=1
 var a
 MidiParser.parse(source,(res)=>{
+    sp_notes=[]
     a=res
     min_time=-1
     var track_id=-1
